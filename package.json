@@ -1,0 +1,49 @@
+{
+  "name": "dsh-think-in-chinese",
+  "version": "1.0.0",
+  "description": "Injects a configurable reasoning-language section into the DeepSeek Harness system prompt — a reversible experiment for CJK-optimised models.",
+  "type": "module",
+  "license": "MIT",
+  "author": "xiaohuo130",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaohuo130/dsh-think-in-chinese.git"
+  },
+  "homepage": "https://github.com/xiaohuo130/dsh-think-in-chinese#readme",
+  "bugs": {
+    "url": "https://github.com/xiaohuo130/dsh-think-in-chinese/issues"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "plugin",
+    "system-prompt",
+    "reasoning",
+    "chinese",
+    "token-efficiency"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "README.en.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node test/smoke.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

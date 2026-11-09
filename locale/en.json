@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Think in Chinese",
+    "description": "Injects a switchable system-prompt section that makes the model organise its internal reasoning in Chinese. Can cut reasoning tokens on CJK-optimised models; measure before keeping it on."
+  }
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="Think in Chinese">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#1e40af"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
+  <path d="M30 38h68a8 8 0 0 1 8 8v40a8 8 0 0 1-8 8H62l-18 14v-14h-14a8 8 0 0 1-8-8V46a8 8 0 0 1 8-8z" fill="#ffffff" opacity="0.96"/>
+  <text x="64" y="82" text-anchor="middle" font-family="'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="42" font-weight="700" fill="#1e40af">思</text>
+</svg>

@@ -1,0 +1,6 @@
+- insert:
+    - id: think-in-chinese
+      name: 'dsh-think-in-chinese'
+      config:
+        mode: zh
+        order: 100
