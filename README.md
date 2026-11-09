@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="docs/images/banner.png" width="100%" alt="dsh-think-in-chinese">
+
 # 🧠 dsh-think-in-chinese
 
 **让 AI 在「心里打草稿」时用中文，回答仍然跟着你的语言走。**

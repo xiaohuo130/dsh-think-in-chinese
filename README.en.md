@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="docs/images/banner.png" width="100%" alt="dsh-think-in-chinese">
+
 # 🧠 dsh-think-in-chinese
 
 **Let the model do its internal "scratch work" in Chinese — the answer still follows your language.**
